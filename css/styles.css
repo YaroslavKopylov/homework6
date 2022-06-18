@@ -860,7 +860,7 @@ img {
 }
 .checkbox-input:checked + .checkbox-label::before {
   background-color: var(--accent-color);
-  background-image: url(/images/icons/1.png);
+  background-image: url(../images/icons/1.png);
   border-color: var(--accent-color);
 }
 

@@ -629,8 +629,6 @@ img {
   margin-bottom: 20px;
 }
 
-
-
 .footer-form-field {
   display: flex;
   flex-direction: row;
@@ -669,9 +667,13 @@ img {
 }
 
 .subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
-  padding: 10px 62px 10px 29px;
+  padding: 10px 29px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
@@ -685,10 +687,9 @@ img {
 }
 .footer-btn-icon {
   fill: var(--general-white-color);
-  position: absolute;
-  top: 13px;
-  left: 13px;
-  transform: translateX(45%);
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
 }
 /* ~~~~~~~~~~~~ MODAL   ~~~~~~~~~~~~*/
 .backdrop {
@@ -766,12 +767,13 @@ img {
 }
 .icon-wrapper {
   position: relative;
+  margin-bottom: 10px;
 }
 .form-icon {
   position: absolute;
   top: 50%;
   left: 12px;
-  transform: translateY(-75%);
+  transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -788,7 +790,6 @@ img {
   padding-left: 42px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-bottom: 10px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
@@ -859,14 +860,12 @@ img {
   cursor: pointer;
 }
 .checkbox-input:checked + .checkbox-label::before {
-  background-color:var(--accent-color);
+  background-color: var(--accent-color);
   background-image: url(../images/icons/1.png);
   border-color: var(--accent-color);
 }
 
-
-
-.checkbox-input:focus + .checkbox-label::before{
+.checkbox-input:focus + .checkbox-label::before {
   outline: 1px solid var(--accent-color);
 }
 

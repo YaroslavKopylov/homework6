@@ -1,0 +1,8 @@
+.primary-list {
+  display: flex;
+  justify-content: center;
+
+  & .list-item + .list-item {
+    margin-left: 30px;
+  }
+}

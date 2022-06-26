@@ -1,5 +1,6 @@
 .footer-mail {
   display: inline-block;
+  
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -86,9 +87,7 @@
 }
 
 .footer-social-link-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -157,9 +156,7 @@
 
 
 .subscribe-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
   width: 200px;
   height: 50px;
   padding: 10px 29px;

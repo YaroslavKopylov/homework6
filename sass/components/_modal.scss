@@ -14,15 +14,10 @@
 }
 
 .modal-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
 
   margin-bottom: 12px;
-
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(700, 20px, 23px);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--general-black-color);

@@ -7,9 +7,6 @@ textarea {
   resize: none;
 }
 
-.list {
-  list-style: none;
-}
 
 .button {
   cursor: pointer;
@@ -28,6 +25,7 @@ p {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {

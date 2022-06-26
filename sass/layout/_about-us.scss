@@ -7,19 +7,15 @@
 }
 
 .about-image-suptext {
-  display: flex;
+  @extend %align;
+  @include font(700, 14px, 16px);
+  
   position: absolute;
   left: 0;
   bottom: 0;
 
   width: 370px;
   height: 70px;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
